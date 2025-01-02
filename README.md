@@ -51,3 +51,6 @@ Agora a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada. Temos a seguinte sa
 ```bash
 Mover disco 1 de A para B
 ```
+## Executando o arquivo
+
+Para rodar o programa basta executar `./run.sh` no terminal. Talvez seja necessário tornar o arquivo run.sh um executável. Isto pode ser feito por meio do comando `chmod u+x run.sh`.

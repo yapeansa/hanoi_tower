@@ -6,7 +6,7 @@ O objetivo na torre de Hanoi é mover uma pilha inteira de uma haste para outra 
 2. Cada movimento consiste em retirar o disco do topo de uma pilha e adicioná-lo ao topo de outra pilha;
 3. Nenhum disco pode ser adicionado ao topo de um disco menor.
 
-## Solução utilizando 3 discos
+A seguir, vemos uma solução para o caso em que o número de discos é igual a 3.
 
 ## Chamada da Função `hanoi_tower(3, 'A', 'B', 'C')`
 

@@ -8,15 +8,15 @@ O objetivo na torre de Hanoi é mover uma pilha inteira de uma haste para outra 
 
 ## Solução utilizando 3 discos
 
-### Chamada da Função `hanoi_tower(3, 'A', 'B', 'C')`
+## Chamada da Função `hanoi_tower(3, 'A', 'B', 'C')`
 
 Temos `n` &ne; `1`. Assim, a função `hanoi_tower(2, 'A', 'C', 'B')` é chamada.
 
-### Chamada da Função `hanoi_tower(2, 'A', 'C', 'B')`
+## Chamada da Função `hanoi_tower(2, 'A', 'C', 'B')`
 
 Ainda temos `n` &ne; `1`. Desta forma, a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
 
-### Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
+## Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
 
 Desta vez, temos `n` = `1`. Com isto obtemos a seguinte saída:
 
@@ -31,7 +31,7 @@ Mover disco 2 de A para C
 
 Logo após, temos a chamada da função `hanoi_tower(1, 'B', 'C', 'A')`.
 
-### Chamada da Função `hanoi_tower(1, 'B', 'C', 'A')`
+## Chamada da Função `hanoi_tower(1, 'B', 'C', 'A')`
 
 Esta chamada nos fornece a saída:
 
@@ -47,11 +47,11 @@ Mover disco 3 de A para B
 
 É feita então a chamada da função `hanoi_tower(2, 'C', 'B', 'A')`.
 
-### Chamada da Função `hanoi_tower(2, 'C', 'B', 'A')`
+## Chamada da Função `hanoi_tower(2, 'C', 'B', 'A')`
 
 Aqui novamente temos `n` &ne; `1` de modo que a função `hanoi_tower(1, 'C', 'A', 'B')` é chamada.
 
-### Chamada da Função `hanoi_tower(1, 'C', 'A', 'B')`
+## Chamada da Função `hanoi_tower(1, 'C', 'A', 'B')`
 
 Com isso, obtemos a seguinte saída:
 
@@ -67,7 +67,7 @@ Mover disco 2 de C para B
 
 Agora a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
 
-### Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
+## Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
 
 Temos a seguinte saída para esse caso:
 

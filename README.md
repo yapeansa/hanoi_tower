@@ -10,15 +10,15 @@ A seguir, vemos uma solução para o caso em que o número de discos é igual a 
 
 ## Chamada da Função `hanoi_tower(3, 'A', 'B', 'C')`
 
-Temos `n` &ne; `1`. Assim, a função `hanoi_tower(2, 'A', 'C', 'B')` é chamada.
+Temos n &ne; 1. Assim, a função hanoi_tower(2, 'A', 'C', 'B') é chamada.
 
 ## Chamada da Função `hanoi_tower(2, 'A', 'C', 'B')`
 
-Ainda temos `n` &ne; `1`. Desta forma, a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
+Ainda temos n &ne; 1. Desta forma, a função hanoi_tower(1, 'A', 'B', 'C') é chamada.
 
 ## Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
 
-Desta vez, temos `n` = `1`. Com isto obtemos a seguinte saída:
+Desta vez, temos n = 1. Com isto obtemos a seguinte saída:
 
 > Mover disco 1 de A para B
 
@@ -26,7 +26,7 @@ Seguido da saída:
 
 > Mover disco 2 de A para C
 
-Logo após, temos a chamada da função `hanoi_tower(1, 'B', 'C', 'A')`.
+Logo após, temos a chamada da função hanoi_tower(1, 'B', 'C', 'A').
 
 ## Chamada da Função `hanoi_tower(1, 'B', 'C', 'A')`
 
@@ -34,15 +34,15 @@ Esta chamada nos fornece a saída:
 
 > Mover disco 1 de B para C
 
-Em seguida obtemos a seguinte saída, referente a chamada `n = 3`:
+Em seguida obtemos a seguinte saída, referente a chamada n = 3:
 
 > Mover disco 3 de A para B
 
-É feita então a chamada da função `hanoi_tower(2, 'C', 'B', 'A')`.
+É feita então a chamada da função hanoi_tower(2, 'C', 'B', 'A').
 
 ## Chamada da Função `hanoi_tower(2, 'C', 'B', 'A')`
 
-Aqui novamente temos `n` &ne; `1` de modo que a função `hanoi_tower(1, 'C', 'A', 'B')` é chamada.
+Aqui novamente temos n &ne; 1 de modo que a função hanoi_tower(1, 'C', 'A', 'B') é chamada.
 
 ## Chamada da Função `hanoi_tower(1, 'C', 'A', 'B')`
 
@@ -54,7 +54,7 @@ Seguido da saída:
 
 > Mover disco 2 de C para B
 
-Agora a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
+Agora a função hanoi_tower(1, 'A', 'B', 'C') é chamada.
 
 ## Chamada da Função `hanoi_tower(1, 'A', 'B', 'C')`
 

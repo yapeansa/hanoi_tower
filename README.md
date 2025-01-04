@@ -20,14 +20,11 @@ Ainda temos `n` &ne; `1`. Desta forma, a função `hanoi_tower(1, 'A', 'B', 'C')
 
 Desta vez, temos `n` = `1`. Com isto obtemos a seguinte saída:
 
-```bash
-Mover disco 1 de A para B
-```
+> Mover disco 1 de A para B
+
 Seguido da saída:
 
-```bash
-Mover disco 2 de A para C
-```
+> Mover disco 2 de A para C
 
 Logo após, temos a chamada da função `hanoi_tower(1, 'B', 'C', 'A')`.
 
@@ -35,15 +32,11 @@ Logo após, temos a chamada da função `hanoi_tower(1, 'B', 'C', 'A')`.
 
 Esta chamada nos fornece a saída:
 
-```bash
-Mover disco 1 de B para C
-```
+> Mover disco 1 de B para C
 
 Em seguida obtemos a seguinte saída, referente a chamada `n = 3`:
 
-```bash
-Mover disco 3 de A para B
-```
+> Mover disco 3 de A para B
 
 É feita então a chamada da função `hanoi_tower(2, 'C', 'B', 'A')`.
 
@@ -55,15 +48,11 @@ Aqui novamente temos `n` &ne; `1` de modo que a função `hanoi_tower(1, 'C', 'A
 
 Com isso, obtemos a seguinte saída:
 
-```bash
-Mover disco 1 de C para A
-```
+> Mover disco 1 de C para A
 
 Seguido da saída:
 
-```bash
-Mover disco 2 de C para B
-```
+> Mover disco 2 de C para B
 
 Agora a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
 
@@ -71,9 +60,7 @@ Agora a função `hanoi_tower(1, 'A', 'B', 'C')` é chamada.
 
 Temos a seguinte saída para esse caso:
 
-```bash
-Mover disco 1 de A para B
-```
+> Mover disco 1 de A para B
 
 Com isso, o ciclo termina e o programa finaliza.
 
